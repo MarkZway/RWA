@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marko Samardzic">
+    <meta name="description" content="Prototip web stranice za projekt izrade web sjedišta za tvrtku XYZ">
+    <meta name="keywords" content="web stranica, HTML5, projekt, tvrtka XYZ">
+    <meta name="project" content="Web stranica za Project X">
+    <title>Projekt X - Web sjedište</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Project X</h1>
+        </div>
+        <div class="auth-links">
+            <a href="">Login</a>
+            <a href="">Account</a>
+            <a href="">Register</a>
+        </div>
+    </header>
+
+    <!-- Top Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Početna</a></li>
+            <li><a href="https://eucenje.sum.ba/moodle/course/view.php?id=4981#section-15">Vježbe</a></li>
+            <li><a href="">Zadaća</a></li>
+            <li><a href="https://fsre.sum.ba">FSRE</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Lijevi dio -->
+        <section>
+            <h2>🎉 Project X – Priča iza partyja</h2>
+            <p>U srcu urbanog kaosa, iz potrebe za bijegom od svakodnevice, rodio se Project X – tajanstveni noćni event koji okuplja ljubitelje glazbe, slobode i dobre energije. Ono što je počelo kao privatna zabava među prijateljima, ubrzo je postalo fenomen o kojem bruji cijeli grad.</p>
+            <div class="image-grid">
+                <img src="sliba.jpg" alt="Opis slike">
+                <img src="sliba2.jpg" alt="Opis slike">
+                <img src="sliba33.jpg" alt="Opis slike">
+                <img src="sliba4.jpg" alt="Opis slike">
+            </div>
+            
+            <h3>🎶 Glazba. 🔥 Energija. 💥 Ludilo.</h3>
+            <p>Svake godine, Project X se održava na tajnoj lokaciji koja se otkriva samo onima koji se prijave. Cilj? Jedna noć bez pravila, bez stresa – samo čista zabava, nevjerojatni vizuali i vrhunski DJ-evi koji garantiraju da se podij ne gasi do izlaska sunca.</p>
+            <h4>Detalji eventa</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>DJ</th>
+                        <th>Stage 1</th>
+                        <th>Stage 2</th>
+                        <th>Stage 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Headliner</td>
+                        <td>Lady Vibe</td>
+                        <td>Beatstorm</td>
+                        <td>DJ Neon</td>
+                    </tr>
+                    <tr>
+                        <td>Support</td>
+                        <td>DJ Spark</td>
+                        <td>RavePulse</td>
+                        <td>GlowMaster</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Poveznice:</h4>
+            <p>
+                <a href="https://www.imdb.com/title/tt1636826/">Informacije</a>
+                <a href="https://www.imdb.com/title/tt1636826/mediaviewer/rm1024831744/">Slike</a>
+                <a href="https://www.imdb.com/title/tt1636826/videogallery/">Video</a>
+            </p>
+        </section>
+
+        <!-- Desni dio -->
+        <aside>
+            <div class="info-content">
+                <h3>🎉 Općenite informacije</h3>
+                <p><strong>Naziv događaja:</strong><br>Project X – Urban Night Madness</p>
+                <p><strong>Datum:</strong><br>Subota, 15. lipnja 2025.</p>
+                <p><strong>Vrijeme:</strong><br>Početak u 21:00h – Zabava traje do zore!</p>
+                <p><strong>Lokacija:</strong><br>Tajna lokacija (bit će otkrivena prijavljenima dan prije eventa)</p>
+                <p><strong>Dress code:</strong><br>Neon / Glow / Party mode ON</p>
+            </div>
+            <p class="description">Project X nije običan party – to je iskustvo koje briše granice stvarnosti i dovodi te ravno u srž urbane noćne euforije. Pripremi se za noć punu ritma, svjetla i adrenalina, gdje se energija publike stapa s najjačim beatovima koje donose vrhunski DJ-evi. Uz tajanstvenu lokaciju, neonske boje i nezaboravnu atmosferu, Project X postaje epicentar zabave o kojem će se još dugo pričati. Ovo nije party. Ovo je pokret. Jesi li spreman?</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <h5>O organizatoru:</h5>
+        <p>Projekt stoji iza kreativnog tima X Events, mladih entuzijasta i ljubitelja glazbe koji stoje iza najluđih noćnih događanja u regiji. Njihov cilj je jasan – stvoriti autentična iskustva koja brišu granice između glazbe, vizualnog doživljaja i publike. Svaki event je jedinstven, a Project X je njihovo najambicioznije djelo do sada.</p>
+        <p>Kontakt: <a href="mailto:marko.samardzic@fsre.sum.ba">marko.samardzic@fsre.sum.ba</a></p>
+    </footer>
+</body>
+</html>
